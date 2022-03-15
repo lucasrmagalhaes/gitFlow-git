@@ -7,37 +7,26 @@ git flow init
 
 **Inicializa uma nova Feature:**
 ```
-git flow feature start sum
+git flow feature start nova-feature
 ```
 
 ```
-touch sum
+touch arquivo
 git add .
-git commit -m "add sum"
+git commit -m "add arquivo"
 ```
 
 **Finaliza a Feature:**
 ```
-git flow feature finish sum
-```
-
-```
-git flow feature start sub
-```
-
-```
-touch sub
-git add .
-git commit -m "add sub"
-```
-
-```
-git flow feature finish sub
+git flow feature finish nova-feature
 ```
 
 **Homologação:**
 ```
 git flow release start 0.1.0
+```
+```
+git flow release finish 0.1.0
 ```
 
 [Git - git flow na prática](https://www.youtube.com/watch?v=wzxBR4pOTTs&ab_channel=AngeloLuz)
