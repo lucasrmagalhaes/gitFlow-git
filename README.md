@@ -5,7 +5,7 @@ git flow init
 ```
 
 ```
-git flow feature start nome-da-feature
+git flow feature start sum
 ```
 
 ```
@@ -15,7 +15,21 @@ git commit -m "add sum"
 ```
 
 ```
-git flow feature finish nome-da-feature
+git flow feature finish sum
+```
+
+```
+git flow feature start sub
+```
+
+```
+touch sub
+git add .
+git commit -m "add sub"
+```
+
+```
+git flow feature finish sub
 ```
 
 [Git - git flow na prática](https://www.youtube.com/watch?v=wzxBR4pOTTs&ab_channel=AngeloLuz)
